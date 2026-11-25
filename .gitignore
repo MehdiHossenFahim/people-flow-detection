@@ -1,0 +1,62 @@
+# ==========================================
+# Byte-compiled / optimized / cache files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Jupyter Notebook Checkpoints
+# ==========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# Model Weights (Auto-downloaded at runtime)
+# ==========================================
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+
+# ==========================================
+# Video & Media Streams
+# Ignore large video files, but allow preview assets
+# ==========================================
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+!assets/*.mp4
+
+# ==========================================
+# Run Outputs & Logs
+# ==========================================
+runs/
+output/
+*.log
+
+# ==========================================
+# IDE & OS-Specific Metadata
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
