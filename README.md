@@ -124,7 +124,7 @@ people-flow-detection/
 ### 1. Clone Repository & Setup Environment
 
 ```bash
-git clone https://github.com/<your-username>/people-flow-detection.git
+git clone https://github.com/MehdiHossenFahim/people-flow-detection.git
 cd people-flow-detection
 
 # Create and activate a virtual environment
